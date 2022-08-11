@@ -14,6 +14,7 @@
 	<dirname property="airpackage.basedir" file="${ant.file.airpackage}" />
 
 	<property file="build.config" description="build properties" />
+	<property file="${airpackage.basedir}/../version.config" description="build version properties" />
 
 	<property name="version" value="${version_major}.${version_minor}.${version_build}" />
 
