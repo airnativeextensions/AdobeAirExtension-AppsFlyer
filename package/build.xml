@@ -17,6 +17,7 @@
 	<property file="${airpackage.basedir}/../version.config" description="build version properties" />
 
 	<property name="version" value="${version_major}.${version_minor}.${version_build}" />
+	<property name="version.release" value="${version_major}.${version_minor}.${version_build}" />
 
 
     <tstamp>
