@@ -9,8 +9,9 @@
   "sourceUrl": "https://github.com/@GITHUB_REPO@/releases/download/v@VERSIONRELEASE@/@EXTENSIONID@_@VERSION@.airpackage",
   "publishedAt": "@DATETIME@",
   "dependencies": [
-    "androidx.core:1.6.x",
-    "com.distriqt.playservices.Base:18.0.x"
+    "androidx.core:1.9.x",
+    "com.distriqt.playservices.Base:18.1.x",
+    "com.android.installreferrer:2.2.x"
   ],
   "parameters": [],
   "tags": [
